@@ -12,5 +12,7 @@ http://www.sublimetext.com/
 Sublime Text 
 
 
-GDB
+
+GDB 软件
 https://code.google.com/p/golangide/downloads/list
+
