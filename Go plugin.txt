@@ -1,0 +1,12 @@
+
+go下载
+https://golang.org/dl/
+
+
+GoClipse
+http://goclipse.googlecode.com/svn/trunk/goclipse-update-site/
+
+
+编辑器
+http://www.sublimetext.com/
+Sublime Text 
