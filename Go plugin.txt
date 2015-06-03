@@ -10,3 +10,7 @@ http://goclipse.googlecode.com/svn/trunk/goclipse-update-site/
 编辑器
 http://www.sublimetext.com/
 Sublime Text 
+
+
+GDB
+https://code.google.com/p/golangide/downloads/list
