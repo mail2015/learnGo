@@ -120,4 +120,24 @@ func methodSwitch(){
 
 func methodSelect(){
 	fmt.Println(" \n\n \t select语句 ")
+
+    var c1, c2, c3 chan int
+    var i1, i2 int
+    select {
+      case i1 = <- c1 :
+    	fmt.Printf(" received  i1= ", i1 , " from c1\n")
+      case c2 <- i2 :
+        fmt.Println(" sent i2= ", i2, " to c2 \n ")	
+      case i3, ok := (<-c3) : // same as i3, ok := <-c3
+        if ok {
+        	fmt.Println(" received i3=", i3, " from c3")
+        }  else{
+        	fmt.Println(" nc3 is cloesd! \n")
+        }
+       default : 
+         fmt.Println(" no communication \n ")  
+
+    } 
+
+	fmt.Println(" case5 finish ")
 }
