@@ -30,6 +30,12 @@ func methodIfElse(){
 	fmt.Println(" \n\n \t if...else语句 ")
 
 	var a int = 100
+	if(a < 20 ){
+		fmt.Println(" a is less than 20\n ")
+	}else{
+		fmt.Println(" a is large than 20\n ")
+	}
+	fmt.Printf(" a vlaue is: %d \n ", a)
 
 }
 
