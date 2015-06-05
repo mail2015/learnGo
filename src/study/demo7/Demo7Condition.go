@@ -35,6 +35,20 @@ func methodIfElse(){
 	}else{
 		fmt.Println(" a is large than 20\n ")
 	}
+
+	if(a == 20 ){
+		fmt.Println(" a is equal to 20\n ")
+	}else if(a == 50){
+		fmt.Println(" a is equal to 50\n ")
+	}else if(a == 100){
+		fmt.Println(" a is equals to 100\n ")		
+	}else if(a == 200){
+		fmt.Println(" a is equals to 200\n ")
+	}else{
+		fmt.Println(" a= ", a, " not a expected value")
+	}
+
+
 	fmt.Printf(" a vlaue is: %d \n ", a)
 
 }
