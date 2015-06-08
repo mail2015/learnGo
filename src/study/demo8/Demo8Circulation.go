@@ -25,16 +25,16 @@ func forMethod(){
 
 	numbers := [6]int{1, 2, 3, 6}
 	/* for loop execution */
-	fmt.Println(" for case 1")
+	fmt.Println(" \n for case 1 ")
 	for i := 0; i < 10; i++{
 		fmt.Printf(" \n value of i is: %d ", i)
 	}
-	fmt.Println(" for case 2 -----")
+	fmt.Println(" \n for case 2 -----")
 	for a < b {
 		a++
 		fmt.Println(" for a value is ", a, " for a value is ", b)
 	}
-	fmt.Println(" for case3 ")
+	fmt.Println(" \n for case3 ")
 	for i, x :=range numbers{
 		fmt.Printf(" \n value od x = %d and i =  %d ", x, i)
 	}
@@ -64,6 +64,17 @@ func forMultipleMethod(){
 
 func breakStatement(){
 	fmt.Println(" \n\n \t break语句 ")
+	var a int = 10
+
+	/* for loop execution */
+	for a < 25 {
+		fmt.Printf(" \n value of a: %d ", a)
+		a++
+		if a > 15{
+			fmt.Println("\n\n break when a > 15, a =", a)
+			break
+		}
+	}
 }
 
 
