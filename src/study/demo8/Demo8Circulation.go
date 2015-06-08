@@ -44,8 +44,21 @@ func forMethod(){
 }
 
 func forMultipleMethod(){
-	fmt.Println(" \n\n \t 嵌套循环 ")
+	fmt.Println(" \n\n \t 嵌套循环  \n")
 
+	var i, j int
+	for i = 2; i <= 100; i++ {
+		for j = 2; j <= (i / j); j++{
+			if( i % j == 0){
+				fmt.Println(" i value is ", i , " and j value is ", j , " i % j == 0 ")
+				break;
+			}
+		}
+		if(j > ( i / j)){
+			fmt.Printf(" \n  i = %d,  j = %d is prime \n ", i, j)
+		}
+
+	}
 }
 
 
