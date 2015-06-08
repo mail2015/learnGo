@@ -81,6 +81,17 @@ func breakStatement(){
 func continueStatement(){
 	fmt.Println(" \n\n \t  continue 语句 ")
 
+	var a int = 10
+
+	for a < 25 {
+		if a == 15 || a == 17 || a == 18 {
+			a = a + 1
+			continue
+		}
+		fmt.Println(" value a is : ", a)
+		a++
+	}
+
 }
 
 func gotoStatement(){
