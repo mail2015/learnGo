@@ -97,4 +97,20 @@ func continueStatement(){
 func gotoStatement(){
 	fmt.Println(" \n\n \t goto语句 ")
 
+	var a int = 10
+
+	LABEL1 : {
+		fmt.Println(" LABEL1 print : a = ", a)
+	}
+
+	for a < 20 {
+		if a == 15 {
+			fmt.Println(" value print a = ", a)
+			a = a + 1
+			goto LABEL1
+		}
+		fmt.Println(" value of a is: ", a)
+		a++
+	}
+
 }
